@@ -8,7 +8,7 @@ let security = false;
 
 const port = process.env.PORT || 5000; // your local host port
 
-app.set("view engine", "ejs");
+app.set("view engine", "ejs"); // test
 
 app.set("views", path.join(__dirname, "views"));
 
